@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Home() {
@@ -137,8 +136,8 @@ export default function Home() {
               <h3 className="text-xl font-medium text-gray-800 dark:text-gray-100 mb-3">Technical Security Measures</h3>
               <ul className="list-disc pl-6 text-gray-700 dark:text-gray-200 space-y-2 mb-4">
                 <li><strong>Data Encryption</strong>: All financial data is encrypted both in transit and at rest</li>
-                <li><strong>Firebase Security</strong>: Utilizes Google Firebase's enterprise-grade security infrastructure</li>
-                <li><strong>User Isolation</strong>: Each user's data is completely isolated using unique Firebase UIDs</li>
+                <li><strong>Firebase Security</strong>: Utilizes Google Firebase&apos;s enterprise-grade security infrastructure</li>
+                <li><strong>User Isolation</strong>: Each user&apos;s data is completely isolated using unique Firebase UIDs</li>
                 <li><strong>Secure Authentication</strong>: Multi-factor authentication with Firebase and Google Sign-In</li>
                 <li><strong>Local Device Security</strong>: Biometric authentication (Face ID/Touch ID) when available</li>
               </ul>
