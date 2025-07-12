@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Mobile App Privacy Terms",
+  title: "Finova - Mobile App Privacy Policy",
   description: "Comprehensive privacy policy for mobile applications. Learn how we collect, use, and protect your personal information in compliance with App Store and Google Play requirements.",
   keywords: ["privacy policy", "mobile app", "data protection", "GDPR", "CCPA", "app store", "google play"],
   authors: [{ name: "Your Company Name" }],
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Privacy Policy - Mobile App Privacy Terms",
+    title: "Finova - Mobile App Privacy Policy",
     description: "Comprehensive privacy policy for mobile applications",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary",
-    title: "Privacy Policy - Mobile App Privacy Terms",
+    title: "Finova - Mobile App Privacy Policy",
     description: "Comprehensive privacy policy for mobile applications",
   },
 };

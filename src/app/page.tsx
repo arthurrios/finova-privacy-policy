@@ -6,9 +6,10 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="bg-white dark:bg-[#181f2a] rounded-lg shadow-lg p-8 transition-colors duration-300">
           <div className="flex flex-col items-center mb-8">
-            <Image src="/globe.svg" alt="FinFlow Logo" width={64} height={64} className="mb-4 drop-shadow-lg dark:invert-0" />
+            <Image src="/globe.svg" alt="Finova Logo" width={64} height={64} className="mb-4 drop-shadow-lg dark:invert-0" />
             <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-2 text-center">
-              FinFlow Privacy Policy
+              Finova - Privacy Policy
+              
             </h1>
           </div>
           
@@ -25,7 +26,7 @@ export default function Home() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">1. Introduction</h2>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-4">
-                Welcome to FinFlow (&quot;App&quot;), your personal finance management application. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. We understand that financial data is highly sensitive, and we are committed to protecting your privacy and securing your personal financial information. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.
+                Welcome to Finova (&quot;App&quot;), your personal finance management application. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. We understand that financial data is highly sensitive, and we are committed to protecting your privacy and securing your personal financial information. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.
               </p>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed">
                 We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the &quot;Last updated&quot; date of this Privacy Policy.
@@ -35,7 +36,7 @@ export default function Home() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">2. Information We Collect</h2>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-4">
-                FinFlow collects various types of information to provide you with our personal finance management services. The information we collect includes:
+                Finova collects various types of information to provide you with our personal finance management services. The information we collect includes:
               </p>
               
               <h3 className="text-xl font-medium text-gray-800 dark:text-gray-100 mb-3">Account and Authentication Information</h3>
@@ -73,12 +74,12 @@ export default function Home() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">3. How We Use Your Information</h2>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-4">
-                FinFlow uses your information solely to provide you with personal finance management services and improve your experience. We use your information for the following purposes:
+                Finova uses your information solely to provide you with personal finance management services and improve your experience. We use your information for the following purposes:
               </p>
               
               <h3 className="text-xl font-medium text-gray-800 dark:text-gray-100 mb-3">Core App Functionality</h3>
               <ul className="list-disc pl-6 text-gray-700 dark:text-gray-200 space-y-2 mb-4">
-                <li><strong>Account Management</strong>: Create, maintain, and secure your FinFlow account</li>
+                <li><strong>Account Management</strong>: Create, maintain, and secure your Finova account</li>
                 <li><strong>Financial Tracking</strong>: Store and organize your income, expenses, and budget data</li>
                 <li><strong>Transaction Processing</strong>: Handle recurring transactions and installment tracking</li>
                 <li><strong>Data Synchronization</strong>: Sync your data securely across your devices</li>
@@ -105,7 +106,7 @@ export default function Home() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">4. Information Sharing and Disclosure</h2>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-4">
-                <strong>FinFlow does NOT sell or rent your personal financial data to third parties.</strong> We only share your information in the following limited circumstances:
+                <strong>Finova does NOT sell or rent your personal financial data to third parties.</strong> We only share your information in the following limited circumstances:
               </p>
               
               <h3 className="text-xl font-medium text-gray-800 dark:text-gray-100 mb-3">Service Providers We Use</h3>
@@ -123,14 +124,14 @@ export default function Home() {
 
               <h3 className="text-xl font-medium text-gray-800 dark:text-gray-100 mb-3">Data Isolation and Privacy</h3>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed">
-                Your financial data is isolated using your unique Firebase UID. This means your transactions, budgets, and financial information are stored separately from other users and cannot be accessed by unauthorized parties, including other FinFlow users.
+                Your financial data is isolated using your unique Firebase UID. This means your transactions, budgets, and financial information are stored separately from other users and cannot be accessed by unauthorized parties, including other Finova users.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">5. Security of Your Financial Information</h2>
               <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-4">
-                FinFlow implements multiple layers of security to protect your sensitive financial data:
+                Finova implements multiple layers of security to protect your sensitive financial data:
               </p>
               
               <h3 className="text-xl font-medium text-gray-800 dark:text-gray-100 mb-3">Technical Security Measures</h3>
@@ -200,7 +201,7 @@ export default function Home() {
                 If you have questions or comments about this Privacy Policy, please contact us at:
               </p>
               <div className="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900 dark:to-blue-800 p-4 rounded-lg border border-blue-200 dark:border-blue-700 shadow flex flex-col gap-1">
-                <p className="text-gray-900 dark:text-gray-100 font-semibold">FinFlow Development Team</p>
+                <p className="text-gray-900 dark:text-gray-100 font-semibold">Finova Development Team</p>
                 <p className="text-gray-800 dark:text-gray-200">Arthur Rios - Lead Developer</p>
                 <p className="text-gray-800 dark:text-gray-200">Email: <a href="mailto:arthur.rios007@gmail.com" className="text-blue-700 dark:text-blue-300 underline">arthur.rios007@gmail.com</a></p>
               </div>
